@@ -4,8 +4,8 @@ public class Team1vsTeam2 {
     static String statsPath = "/Users/adityakhanna/Desktop/Football/";
     static String sosPath = statsPath + "SOS.xlsx";
     static String end = "Stats.xlsx";
-    static String team1File = statsPath + "Bills" + end;
-    static String team2File = statsPath + "Broncos" + end;
+    static String team1File = statsPath + "Packers" + end;
+    static String team2File = statsPath + "Panthers" + end;
     static String team1 = team1File.substring(team1File.indexOf("ll") + 3, team1File.indexOf("Stats"));
     static String team2 = team2File.substring(team2File.indexOf("ll") + 3, team2File.indexOf("Stats"));
     public static void main( String[] args ){
@@ -30,13 +30,13 @@ public class Team1vsTeam2 {
 
     public static double Team1Points(){
         if ( Team1PF > Team2PA )
-            return (Team1PF + Team2PA)*Team1SOS/2;
+            return Team1SOS*Math.pow(Team1PF, 2)/Team2PA;
         return Team1PF*Team1SOS;
     }
 
     public static double Team2Points(){
         if ( Team2PF > Team1PA )
-            return (Team2PF + Team1PA)*Team2SOS/2;
+            return Team2SOS*Math.pow(Team2PF, 2)/Team1PA;
         return Team2PF*Team2SOS;
     }
 
