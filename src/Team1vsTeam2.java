@@ -5,8 +5,8 @@ public class Team1vsTeam2 {
     private static String statsWeek = "Week 12/";
     private static String sosPath = statsPath + "SOS.xlsx";
     private static String end = "Stats.xlsx";
-    private static String team1 = "Bills";
-    private static String team2 = "Broncos";
+    private static String team1 = "49ers";
+    private static String team2 = "Cowboys";
     private static String team1File = statsPath + statsWeek + team1 + end;
     private static String team2File = statsPath + statsWeek+ team2 + end;
 
@@ -28,6 +28,9 @@ public class Team1vsTeam2 {
 
         prediction();
     }
+
+    //TODO Use Scanner to ask user what teams they'd like to compare
+    //TODO Use an average (team1PF + team2PA)/2 and then average that with the ratio algo to get more accuracy
 
     public static double ratioAlgo( double team1Stat, double team2Stat, double teamSOS) {
         if( team1Stat > team2Stat )
