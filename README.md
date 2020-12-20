@@ -6,7 +6,7 @@ This program called FootballAnalysis is created by Aditya Khanna. The program us
 - PF: Total Points scored by the team during this season
 - PA: Total Points allowed by the team during this season
 - YPG: Total Yards per Game produced by the team during this season
--YAPG: Total Yards Allowed per Game by the team during this season
+- YAPG: Total Yards Allowed per Game by the team during this season
 - SOS: Strength of Schedule of the team
 
 Thank you for using this football analysis program!
