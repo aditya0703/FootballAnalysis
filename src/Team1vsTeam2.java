@@ -1,6 +1,6 @@
 public class Team1vsTeam2 {
 
-    private static double Team1PF, Team1PA, Team1YPG, Team1YAPG, Team1SOS, Team2PF, Team2PA, Team2YPG, Team2YAPG, Team2SOS;
+    private static double Team1PF, Team1PA, Team1YPG, Team1YAPG, Team1SOS, Team1Points, Team1Yards, Team2PF, Team2PA, Team2YPG, Team2YAPG, Team2SOS, Team2Points, Team2Yards;
     private static String statsPath = "./Stats/";
     private static String statsWeek = "Week 12/";
     private static String sosPath = statsPath + "SOS.xlsx";
@@ -29,44 +29,30 @@ public class Team1vsTeam2 {
         prediction();
     }
 
-    public static double Team1Points(){
-        if ( Team1PF > Team2PA )
-            return Team1SOS*Math.pow(Team1PF, 2)/Team2PA;
-        return Team1PF*Team1SOS;
-    }
-
-    public static double Team2Points(){
-        if ( Team2PF > Team1PA )
-            return Team2SOS*Math.pow(Team2PF, 2)/Team1PA;
-        return Team2PF*Team2SOS;
-    }
-
-    public static double Team1Yards(){
-        if ( Team1YPG > Team2YAPG )
-            return Team1SOS*Math.pow(Team1YPG, 2)/Team2YAPG;
-        return Team1YPG*Team1SOS;
-    }
-
-    public static double Team2Yards(){
-        if ( Team2YPG > Team1YAPG )
-            return Team2SOS*Math.pow(Team2YPG, 2)/Team1YAPG;
-        return Team2YPG*Team2SOS;
+    public static double ratioAlgo( double team1Stat, double team2Stat, double teamSOS) {
+        if( team1Stat > team2Stat )
+            return teamSOS*Math.pow(team1Stat, 2)/team2Stat;
+        return teamSOS*team1Stat;
     }
 
     public static void prediction(){
-        if ( Team1Points() > Team2Points() )
-            System.out.println("The " + team1 + " vs " + team2 + " score will be: " + String.format("%.2f", Team1Points()) +
-                    " to " + String.format("%.2f", Team2Points()) +
-                    "\nThe Point Difference is " + String.format("%.2f", Team1Points() - Team2Points()) +
-                    "\nThe Total Points Scored is " + String.format("%.2f", Team1Points() + Team2Points()) +
+        Team1Points = ratioAlgo( Team1PF, Team2PA, Team1SOS );
+        Team2Points = ratioAlgo( Team2PF, Team1PA, Team2SOS );
+        Team1Yards = ratioAlgo( Team1YPG, Team2YAPG, Team1SOS );
+        Team2Yards = ratioAlgo( Team2YPG, Team1YAPG, Team2SOS );
+        if ( Team1Points > Team2Points )
+            System.out.println("The " + team1 + " vs " + team2 + " score will be: " + String.format("%.2f", Team1Points) +
+                    " to " + String.format("%.2f", Team2Points) +
+                    "\nThe Point Difference is " + String.format("%.2f", Team1Points - Team2Points) +
+                    "\nThe Total Points Scored is " + String.format("%.2f", Team1Points + Team2Points) +
                     "\nThe " + team1 + " vs " + team2 + " yards will be: " +
-                    String.format("%.2f", Team1Yards()) + " to " + String.format("%.2f", Team2Yards()));
+                    String.format("%.2f", Team1Yards) + " to " + String.format("%.2f", Team2Yards));
         else
-            System.out.println("The " + team2 + " vs " + team1 + " score will be: " + String.format("%.2f", Team2Points()) +
-                    " to " + String.format("%.2f", Team1Points()) +
-                    "\nThe Point Difference is " + String.format("%.2f", Team2Points() - Team1Points()) +
-                    "\nThe Total Points Scored is " + String.format("%.2f", Team1Points() + Team2Points()) +
+            System.out.println("The " + team2 + " vs " + team1 + " score will be: " + String.format("%.2f", Team2Points) +
+                    " to " + String.format("%.2f", Team1Points) +
+                    "\nThe Point Difference is " + String.format("%.2f", Team2Points - Team1Points) +
+                    "\nThe Total Points Scored is " + String.format("%.2f", Team1Points + Team2Points) +
                     "\nThe " + team2 + " vs " + team1 + " yards will be: "
-                    + String.format("%.2f", Team2Yards()) + " to " + String.format("%.2f", Team1Yards()));
+                    + String.format("%.2f", Team2Yards) + " to " + String.format("%.2f", Team1Yards));
     }
 }
