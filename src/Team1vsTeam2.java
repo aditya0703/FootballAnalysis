@@ -5,8 +5,8 @@ public class Team1vsTeam2 {
     private static String statsWeek = "Week 12/";
     private static String sosPath = statsPath + "SOS.xlsx";
     private static String end = "Stats.xlsx";
-    private static String team1 = "Seahawks";
-    private static String team2 = "FootballTeam";
+    private static String team1 = "Bills";
+    private static String team2 = "Broncos";
     private static String team1File = statsPath + statsWeek + team1 + end;
     private static String team2File = statsPath + statsWeek+ team2 + end;
 
@@ -43,14 +43,14 @@ public class Team1vsTeam2 {
 
     public static double Team1Yards(){
         if ( Team1YPG > Team2YAPG )
-            return (Team1YPG + Team2YAPG)/2;
-        return Team1YPG;
+            return Team1SOS*Math.pow(Team1YPG, 2)/Team2YAPG;
+        return Team1YPG*Team1SOS;
     }
 
     public static double Team2Yards(){
         if ( Team2YPG > Team1YAPG )
-            return (Team2YPG + Team1YAPG)/2;
-        return Team2YPG;
+            return Team2SOS*Math.pow(Team2YPG, 2)/Team1YAPG;
+        return Team2YPG*Team2SOS;
     }
 
     public static void prediction(){
