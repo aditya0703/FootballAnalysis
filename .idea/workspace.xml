@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Stats/SOS.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/49ersStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/BearsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/BengalsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/BillsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/BroncosStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/BrownsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/BuccaneersStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/CardinalsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/ChiefsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/ColtsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/CowboysStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/DolphinsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/EaglesStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/FalconsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/FootballTeamStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/GiantsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/JaguarsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/JetsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/LionsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/PackersStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/PanthersStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/PatriotsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/RamsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/RavensStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/SaintsStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/SeahawksStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/SteelersStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/TexansStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/TitansStats.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stats/Week 12/VikingsStats.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="Created new file path so stats within project are being called">
       <change beforePath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Team1vsTeam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team1vsTeam2.java" afterDir="false" />
     </list>
@@ -120,7 +88,7 @@
       <workItem from="1608427644504" duration="537000" />
       <workItem from="1608428204702" duration="1031000" />
       <workItem from="1608429291863" duration="45000" />
-      <workItem from="1608429354210" duration="2563000" />
+      <workItem from="1608429354210" duration="2762000" />
     </task>
     <task id="LOCAL-00001" summary="Created a fully functional Football Analysis program">
       <created>1608428449054</created>
@@ -171,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608431098511</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Uploading week 12 stats and team SOS spreadsheets">
+      <created>1608432334748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608432334748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +188,8 @@
     <MESSAGE value="Libraries to read excel spreadsheet" />
     <MESSAGE value="Created fully functioning football analysis program" />
     <MESSAGE value="Updated Calculation Algorithim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Calculation Algorithim" />
+    <MESSAGE value="Uploading week 12 stats and team SOS spreadsheets" />
+    <MESSAGE value="Created new file path so stats within project are being called" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new file path so stats within project are being called" />
   </component>
 </project>

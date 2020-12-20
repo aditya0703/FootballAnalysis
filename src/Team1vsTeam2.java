@@ -1,17 +1,18 @@
 public class Team1vsTeam2 {
 
-    static double Team1PF, Team1PA, Team1YPG, Team1YAPG, Team1SOS, Team2PF, Team2PA, Team2YPG, Team2YAPG, Team2SOS;
-    static String statsPath = "/Users/adityakhanna/Desktop/Football/";
-    static String sosPath = statsPath + "SOS.xlsx";
-    static String end = "Stats.xlsx";
-    static String team1File = statsPath + "Packers" + end;
-    static String team2File = statsPath + "Panthers" + end;
-    static String team1 = team1File.substring(team1File.indexOf("ll") + 3, team1File.indexOf("Stats"));
-    static String team2 = team2File.substring(team2File.indexOf("ll") + 3, team2File.indexOf("Stats"));
+    private static double Team1PF, Team1PA, Team1YPG, Team1YAPG, Team1SOS, Team2PF, Team2PA, Team2YPG, Team2YAPG, Team2SOS;
+    private static String statsPath = "./Stats/";
+    private static String statsWeek = "Week 12/";
+    private static String sosPath = statsPath + "SOS.xlsx";
+    private static String end = "Stats.xlsx";
+    private static String team1 = "Seahawks";
+    private static String team2 = "FootballTeam";
+    private static String team1File = statsPath + statsWeek + team1 + end;
+    private static String team2File = statsPath + statsWeek+ team2 + end;
+
     public static void main( String[] args ){
 
         Team Team1 = new Team(team1File, sosPath, team1);
-
         Team1PF = Team1.TeamPF;
         Team1PA = Team1.TeamPA;
         Team1YPG = Team1.TeamYPG;
