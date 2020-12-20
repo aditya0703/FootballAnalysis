@@ -1,4 +1,4 @@
-# FootballAnalysis
+# Football Analysis
 
 This program called FootballAnalysis is created by Aditya Khanna. The program uses a statistic sheet from Pro Football References and has an in-built algorithim that uses the statistics to predict the outcomes of NFL Football matchups. This program outputs estimates of the final score, point differential, total points, and yardage by team. These outputs are used to assist in sports betting, however, I do not encourage sports betting and am not liable for any gains or losses you have experience by using my program.
 
