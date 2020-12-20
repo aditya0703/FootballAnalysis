@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="Created new file path so stats within project are being called">
+    <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Team1vsTeam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team1vsTeam2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +32,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../poi-4.1-2.2/lib/activation-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/poi-4.1-2.2/poi-examples-4.1.2.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -88,7 +88,7 @@
       <workItem from="1608427644504" duration="537000" />
       <workItem from="1608428204702" duration="1031000" />
       <workItem from="1608429291863" duration="45000" />
-      <workItem from="1608429354210" duration="2762000" />
+      <workItem from="1608429354210" duration="3988000" />
     </task>
     <task id="LOCAL-00001" summary="Created a fully functional Football Analysis program">
       <created>1608428449054</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608432334748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created new file path so stats within project are being called and updated how teams are stored for easy usage">
+      <created>1608432595012</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608432595012</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,7 @@
     <MESSAGE value="Updated Calculation Algorithim" />
     <MESSAGE value="Uploading week 12 stats and team SOS spreadsheets" />
     <MESSAGE value="Created new file path so stats within project are being called" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new file path so stats within project are being called" />
+    <MESSAGE value="Created new file path so stats within project are being called and updated how teams are stored for easy usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new file path so stats within project are being called and updated how teams are stored for easy usage" />
   </component>
 </project>
