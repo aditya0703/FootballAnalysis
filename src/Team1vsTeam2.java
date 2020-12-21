@@ -8,10 +8,6 @@ public class Team1vsTeam2 {
     private static String sosPath = statsPath + "SOS.xlsx";
     private static String end = "Stats.xlsx";
     private static String team1, team2, team1File, team2File;
-    //private static String team1 = "Browns";
-    //private static String team2 = "Giants";
-    //private static String team1File = statsPath + statsWeek + team1 + end;
-    //private static String team2File = statsPath + statsWeek+ team2 + end;
 
     public static void main( String[] args ){
 
@@ -40,19 +36,28 @@ public class Team1vsTeam2 {
         prediction();
     }
 
-    //TODO Use an average (team1PF + team2PA)/2 and then average that with the ratio algo to get more accuracy
-
     public static double ratioAlgo( double team1Stat, double team2Stat, double teamSOS) {
         if( team1Stat > team2Stat )
             return teamSOS*Math.pow(team1Stat, 2)/team2Stat;
         return teamSOS*team1Stat;
     }
 
+    public static double average( double firstNum, double secondNum ) {
+        return (firstNum+secondNum)/2;
+    }
+
+    public static double avgAlgo( double team1Stat, double team2Stat, double teamSOS ) {
+        if( team1Stat > team2Stat )
+            return teamSOS*average(team1Stat, team2Stat);
+        return teamSOS*team1Stat;
+    }
+
+
     public static void prediction(){
-        Team1Points = ratioAlgo( Team1PF, Team2PA, Team1SOS );
-        Team2Points = ratioAlgo( Team2PF, Team1PA, Team2SOS );
-        Team1Yards = ratioAlgo( Team1YPG, Team2YAPG, Team1SOS );
-        Team2Yards = ratioAlgo( Team2YPG, Team1YAPG, Team2SOS );
+        Team1Points = average( ratioAlgo( Team1PF, Team2PA, Team1SOS ), avgAlgo( Team1PF, Team2PA, Team1SOS ) );
+        Team2Points = average( ratioAlgo( Team2PF, Team1PA, Team2SOS ), avgAlgo( Team2PF, Team1PA, Team2SOS ) );
+        Team1Yards = average( ratioAlgo( Team1YPG, Team2YAPG, Team1SOS ), avgAlgo( Team1YPG, Team2YAPG, Team1SOS ) );
+        Team2Yards = average( ratioAlgo( Team2YPG, Team1YAPG, Team2SOS ), avgAlgo( Team2YPG, Team1YAPG, Team2SOS ) );
         if ( Team1Points > Team2Points )
             System.out.println("The " + team1 + " vs " + team2 + " score will be: " + String.format("%.2f", Team1Points) +
                     " to " + String.format("%.2f", Team2Points) +
