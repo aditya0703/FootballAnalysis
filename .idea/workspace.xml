@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Team1vsTeam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team1vsTeam2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +88,8 @@
       <workItem from="1608427644504" duration="537000" />
       <workItem from="1608428204702" duration="1031000" />
       <workItem from="1608429291863" duration="45000" />
-      <workItem from="1608429354210" duration="5616000" />
+      <workItem from="1608429354210" duration="5650000" />
+      <workItem from="1608567385721" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="Created a fully functional Football Analysis program">
       <created>1608428449054</created>
@@ -175,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608435296668</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Created 2 TODO's to work on">
+      <created>1608435880400</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608435880400</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +230,7 @@
     <MESSAGE value="Moved local file locations" />
     <MESSAGE value="Updated yardage algorithim. Noticed redundancy so will work on updated merge function" />
     <MESSAGE value="Used basic formula in one method and used variables to change the output. Much more efficient code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used basic formula in one method and used variables to change the output. Much more efficient code" />
+    <MESSAGE value="Created 2 TODO's to work on" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created 2 TODO's to work on" />
   </component>
 </project>

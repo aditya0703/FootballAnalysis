@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Team1vsTeam2 {
 
     private static double Team1PF, Team1PA, Team1YPG, Team1YAPG, Team1SOS, Team1Points, Team1Yards, Team2PF, Team2PA, Team2YPG, Team2YAPG, Team2SOS, Team2Points, Team2Yards;
@@ -5,12 +7,21 @@ public class Team1vsTeam2 {
     private static String statsWeek = "Week 12/";
     private static String sosPath = statsPath + "SOS.xlsx";
     private static String end = "Stats.xlsx";
-    private static String team1 = "49ers";
-    private static String team2 = "Cowboys";
-    private static String team1File = statsPath + statsWeek + team1 + end;
-    private static String team2File = statsPath + statsWeek+ team2 + end;
+    private static String team1, team2, team1File, team2File;
+    //private static String team1 = "Browns";
+    //private static String team2 = "Giants";
+    //private static String team1File = statsPath + statsWeek + team1 + end;
+    //private static String team2File = statsPath + statsWeek+ team2 + end;
 
     public static void main( String[] args ){
+
+        Scanner console = new Scanner(System.in);
+        System.out.print("What is the name of the first team? ");
+        team1 = console.next();
+        team1File = statsPath + statsWeek + team1 + end;
+        System.out.print("What is the name of the second team? ");
+        team2 = console.next();
+        team2File = statsPath + statsWeek+ team2 + end;
 
         Team Team1 = new Team(team1File, sosPath, team1);
         Team1PF = Team1.TeamPF;
@@ -29,7 +40,6 @@ public class Team1vsTeam2 {
         prediction();
     }
 
-    //TODO Use Scanner to ask user what teams they'd like to compare
     //TODO Use an average (team1PF + team2PA)/2 and then average that with the ratio algo to get more accuracy
 
     public static double ratioAlgo( double team1Stat, double team2Stat, double teamSOS) {
