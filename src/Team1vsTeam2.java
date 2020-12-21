@@ -36,6 +36,9 @@ public class Team1vsTeam2 {
         prediction();
     }
 
+    //TODO Use yardage and effective drive percentage to update score for accuracy
+    //TODO Use average points to update score based on closest score to get whole number estimates
+
     public static double ratioAlgo( double team1Stat, double team2Stat, double teamSOS) {
         if( team1Stat > team2Stat )
             return teamSOS*Math.pow(team1Stat, 2)/team2Stat;
