@@ -23,6 +23,8 @@ public class Team1vsTeam2 {
         team2 = console.nextLine();
         team2File = statsPath + statsWeek + team2 + end;
 
+        //TODO check inputs to make sure they're valid team names
+
         Team Team1 = new Team(team1File, sosPath, team1);
         Team1PF = Team1.TeamPF;
         Team1PA = Team1.TeamPA;
