@@ -89,7 +89,7 @@
       <workItem from="1608428204702" duration="1031000" />
       <workItem from="1608429291863" duration="45000" />
       <workItem from="1608429354210" duration="5650000" />
-      <workItem from="1608567385721" duration="4036000" />
+      <workItem from="1608567385721" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="Created a fully functional Football Analysis program">
       <created>1608428449054</created>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608582264476</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Created 2 TODO's for implementation to make predictions more accurate">
+      <created>1608583043167</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608583043167</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +254,7 @@
     <MESSAGE value="Created 2 TODO's to work on" />
     <MESSAGE value="Finished TODO about using scanner to ask user teams" />
     <MESSAGE value="Finished TODO about creating average function and using that to find average between ratio and average function to get more accurate result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished TODO about creating average function and using that to find average between ratio and average function to get more accurate result" />
+    <MESSAGE value="Created 2 TODO's for implementation to make predictions more accurate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created 2 TODO's for implementation to make predictions more accurate" />
   </component>
 </project>
