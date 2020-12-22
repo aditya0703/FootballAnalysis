@@ -19,6 +19,8 @@ public class Team {
         TeamSOS = getSOS(sosPath, team);
     }
 
+    //TODO find similarities between getValue and getSOS and possibly combine or create new function
+
     public Double getValue( int row, int column, String path ) {
         Double value;
         Workbook wb = null;
