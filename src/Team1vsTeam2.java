@@ -9,6 +9,8 @@ public class Team1vsTeam2 {
     private static String end = "Stats.xlsx";
     private static String team1, team2, team1File, team2File;
 
+    //TODO update stats sheets for next week or find way to automatically pull
+
     public static void main( String[] args ){
 
         Scanner console = new Scanner(System.in);
