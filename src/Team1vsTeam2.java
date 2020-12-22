@@ -10,6 +10,7 @@ public class Team1vsTeam2 {
     private static String team1, team2, team1File, team2File;
 
     //TODO update stats sheets for next week or find way to automatically pull
+    //TODO add functionality for user to enter which week they want to view a matchup for
 
     public static void main( String[] args ){
 

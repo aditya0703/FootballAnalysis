@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Team1vsTeam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team1vsTeam2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1608428204702" duration="1031000" />
       <workItem from="1608429291863" duration="45000" />
       <workItem from="1608429354210" duration="5650000" />
-      <workItem from="1608567385721" duration="4463000" />
+      <workItem from="1608567385721" duration="4723000" />
     </task>
     <task id="LOCAL-00001" summary="Created a fully functional Football Analysis program">
       <created>1608428449054</created>
@@ -203,7 +202,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608583043167</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created GUI TODO">
+      <created>1608612408633</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608612408633</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Created numGames TODO">
+      <created>1608612482645</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608612482645</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Created TODO to combine getting values from stat sheets">
+      <created>1608612553518</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608612553518</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Created TODO to upload new stats or find way to refresh automatically">
+      <created>1608612653416</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608612653416</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +282,10 @@
     <MESSAGE value="Finished TODO about using scanner to ask user teams" />
     <MESSAGE value="Finished TODO about creating average function and using that to find average between ratio and average function to get more accurate result" />
     <MESSAGE value="Created 2 TODO's for implementation to make predictions more accurate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created 2 TODO's for implementation to make predictions more accurate" />
+    <MESSAGE value="Created GUI TODO" />
+    <MESSAGE value="Created numGames TODO" />
+    <MESSAGE value="Created TODO to combine getting values from stat sheets" />
+    <MESSAGE value="Created TODO to upload new stats or find way to refresh automatically" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created TODO to upload new stats or find way to refresh automatically" />
   </component>
 </project>
