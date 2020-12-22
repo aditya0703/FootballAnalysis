@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1743b4a-67da-48b4-8cae-d931ed84a1a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FootballAnalysis/Team1vsTeam2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Team1vsTeam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Team1vsTeam2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +90,7 @@
       <workItem from="1608428204702" duration="1031000" />
       <workItem from="1608429291863" duration="45000" />
       <workItem from="1608429354210" duration="5650000" />
-      <workItem from="1608567385721" duration="4723000" />
+      <workItem from="1608567385721" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="Created a fully functional Football Analysis program">
       <created>1608428449054</created>
@@ -230,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608612653416</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Created TODO to view multiple week stats">
+      <created>1608612719066</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608612719066</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +295,7 @@
     <MESSAGE value="Created numGames TODO" />
     <MESSAGE value="Created TODO to combine getting values from stat sheets" />
     <MESSAGE value="Created TODO to upload new stats or find way to refresh automatically" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created TODO to upload new stats or find way to refresh automatically" />
+    <MESSAGE value="Created TODO to view multiple week stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created TODO to view multiple week stats" />
   </component>
 </project>

@@ -4,10 +4,9 @@ public class Team1vsTeam2 {
 
     private static double Team1PF, Team1PA, Team1YPG, Team1YAPG, Team1SOS, Team1Points, Team1Yards, Team2PF, Team2PA, Team2YPG, Team2YAPG, Team2SOS, Team2Points, Team2Yards;
     private static String statsPath = "./Stats/";
-    private static String statsWeek = "Week 12/";
     private static String sosPath = statsPath + "SOS.xlsx";
     private static String end = "Stats.xlsx";
-    private static String team1, team2, team1File, team2File;
+    private static String statsWeek, team1, team2, team1File, team2File;
 
     //TODO update stats sheets for next week or find way to automatically pull
     //TODO add functionality for user to enter which week they want to view a matchup for
@@ -15,12 +14,14 @@ public class Team1vsTeam2 {
     public static void main( String[] args ){
 
         Scanner console = new Scanner(System.in);
+        System.out.print("Which week would you like to compare? Week ");
+        statsWeek = "Week " + console.nextLine() + "/";
         System.out.print("What is the name of the first team? ");
-        team1 = console.next();
+        team1 = console.nextLine();
         team1File = statsPath + statsWeek + team1 + end;
         System.out.print("What is the name of the second team? ");
-        team2 = console.next();
-        team2File = statsPath + statsWeek+ team2 + end;
+        team2 = console.nextLine();
+        team2File = statsPath + statsWeek + team2 + end;
 
         Team Team1 = new Team(team1File, sosPath, team1);
         Team1PF = Team1.TeamPF;
