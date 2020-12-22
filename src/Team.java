@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Team {
     double TeamPF, TeamPA, TeamYPG, TeamYAPG, TeamSOS;
     int numGames = 13;
+    //TODO figure out way to change numGames based on stats
 
     public Team(String statsPath, String sosPath, String team) {
         TeamPF = getValue(3, 1, statsPath)/numGames;
